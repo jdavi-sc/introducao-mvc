@@ -35,7 +35,7 @@
                 //Criar um novo objeto que conecta no banco de dados
                 //Vamos utilizar o PDO para isso, passando as variaveis (construtor) acima como parametro.
                 $dsn = "mysql:host={$this->host};dbname={$this->nomeBanco};charset=utf8";
-                $this->conn = new PDO($dsn, $this->$usuario, $this->$senha);
+                $this->conn = new PDO($dsn, $this->usuario, $this->senha);
 
                 //Define como o PDO vai tratar o erro
                 //No caso, vai lançar uma exceção, que posteriormente será tratada no CATCH

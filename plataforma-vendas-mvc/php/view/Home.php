@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAGINA INICIAL | Seja bem-vindo!</title>
 
+    <!-- reset de estilização do browser -->
+
+    <link rel="stylesheet" type="text/css" href="./../../css/container-layout/reset.css">
     <link rel="stylesheet" type="text/css" href="./../../css/container-layout/cabecalho.css">
     <link rel="stylesheet" type="text/css" href="./../../css/componentes/carrossel.css">
+    <link rel="stylesheet" type="text/css" href="./../../css/componentes/menu.css">
+    
+    <!-- css destinado as principais configurações de estilos do portal -->
+    <link rel="stylesheet" type="text/css" href="./../../css/container-layout/principal.css">
 
 </head>
 <body>
@@ -16,6 +23,7 @@
         include '../view/Cabecalho.php'
 
      ?>
+
     <main class="container-main">
         <div class="carrossel">
             <div class="slides">

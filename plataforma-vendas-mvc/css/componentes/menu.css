@@ -1,0 +1,50 @@
+.container-menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1; /*Vai fazer o container crescer de acordo com o espaço disponivel */
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Itens da lista/Menu */
+
+.menu li {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    font-weight: 500;
+    transition: background 0.3s, color 0.3s;
+}
+
+.menu li a:hover{
+    background: #333;
+    color: #f0f0f0;
+    text-shadow: 0px 0px 5px #fff;
+    border-radius: 3;
+}
+
+.menu li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: beige;
+    display: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px #333;
+    z-index: 10;  /* garantir que o submenu fique acima de outros itens */
+    
+}

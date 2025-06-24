@@ -1,0 +1,33 @@
+/* Importando uma fonte para os textos essa fonte é do GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+.container-principal {
+    width: 80%;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px){
+    .container-principal {
+        width: 95%;
+        min-height: 50vh;
+    }
+}
